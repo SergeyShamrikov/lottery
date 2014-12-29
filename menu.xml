@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+<item name="Item 1" link="index.html" />
+<item name="Item 2" link="/" />
+<item name="Item 3" link="/" />
+<item name="Item 4" link="rules.html" />
+<item name="Item 2" link="/" />
+<item name="Item 3" link="/" />
+<item name="Item 4" link="registration.html" />
+</menu>
