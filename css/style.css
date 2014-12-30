@@ -905,7 +905,6 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 15px;
-    height: 117px;
   }
   .gallery_works_img img{
     max-height: 100%;
@@ -914,7 +913,8 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
   }
   .gallery_works_img a{
     display: block;
-    text-align: center;
+    text-align:
+    center;height: 117px;
   }
   .gallery_works_description{
     font-size: 11px;
