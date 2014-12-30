@@ -12,7 +12,7 @@ body {
   font-size:12px;
   line-height:13px;
   color:#231f20;
-  min-width:960px;
+  min-width:1024px;
   background:url(../images/body_bg.jpg) 50% 0 no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -435,7 +435,7 @@ header {
 
 .promo_img{
   bottom: -86px;
-  right: -179px;
+  right: -172px;
 }
 
 .inp_style1{
@@ -694,7 +694,11 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
       position: relative;
     }
     .office_list_link4{margin-left: -20px;}
-.register_code{padding-right: 15px;height: 121px;}
+.register_code{
+  padding-right: 15px;
+  height: 121px;
+  width: 279px;
+}
 .profile_text{
   font-size: 12px;
   line-height: 13px;
@@ -702,7 +706,11 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
   letter-spacing: -1px;
   padding: 10px 30px 0 40px;
 }
-.profile_box{height: 121px;}
+.profile_box{
+  height: 121px;
+  width: 261px;
+}
+.status_box{width: 215px;}
 .status_property_text{
   font-size: 12px;
   line-height: 13px;
@@ -897,6 +905,16 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 15px;
+    height: 117px;
+  }
+  .gallery_works_img img{
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  .gallery_works_img a{
+    display: block;
+    text-align: center;
   }
   .gallery_works_description{
     font-size: 11px;
