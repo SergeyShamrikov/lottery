@@ -138,6 +138,7 @@ a:hover{
 
 .bg_white{background-color: #fff;}
 .bg_white1{background-color: #eeeff1;}
+.bg_grey{background-color: #605a54;}
 /*=====================> indents ========================*/
 .p0_15{padding: 0 15px;}
 .p10_0{padding: 10px 0;}
@@ -186,6 +187,7 @@ a:hover{
 .pl15{padding-left: 15px;}
 .pl20{padding-left: 20px;}
 .pl25{padding-left: 25px;}
+.pl30{padding-left: 30px;}
 .pl35{padding-left: 35px;}
 .pl37{padding-left: 37px;}
 .pl50{padding-left: 50px;}
@@ -196,10 +198,14 @@ a:hover{
 .pr18{padding-right: 18px;}
 .pr65{padding-right: 65px;}
 /*=====================> Lists ========================*/
-.list1{}
+.list1{padding-bottom: 15px;}
 .list1_item{
   background:url(../images/marker1.png) 0 7px no-repeat;
-  padding-left:20px;
+  padding-left:36px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #231f20;
+  letter-spacing: -1px;
 }
 .list1_link{}
 
@@ -230,6 +236,7 @@ h2,h3,h4{
   background-color: #dc0b37;
   border-radius: 8px 8px 0 0;
 }
+.title1.bg_grey{background-color: #605a54;}
 
 .title2{
   font-family: 'rotonda_boldregular';
@@ -967,9 +974,8 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
     line-height: 14px;
   }
 .questions_title{
-  font-family: 'rotonda_boldregular';
-  font-size: 12px;
-  line-height: 18px;
+  font-weight: 700;
+  padding-bottom: 7px;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -992,6 +998,18 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
   border: 1px solid #000;
   width: 50%;
   padding: 10px 5px 10px 10px;
+}
+
+/*about*/
+.logo{
+  right: 15px;
+  top: 2px;
+}
+.text3{
+  font-size: 12px;
+  line-height: 14px;
+  color: #231f20;
+  letter-spacing: -1px;
 }
 /*================================>> Footer <<========================================*/
 footer {
