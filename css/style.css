@@ -29,7 +29,7 @@ body {
 }
 
 /*fonts*/
-.rotonda_bold{font-family: 'rotonda_boldregular';}
+.rotonda_bold{}
 
 /*----------------------> Links And buttons <------------------*/
 
@@ -89,6 +89,7 @@ a:hover{
 
 .it{font-style:italic}
 .let{letter-spacing:-1px}
+.let15{letter-spacing:-1.5px}
 
 .radius{border-radius: 8px;}
 .w100{width: 100%;}
@@ -207,28 +208,12 @@ a:hover{
   color: #231f20;
   letter-spacing: -1px;
 }
-.list1_link{}
 
-.list2{}
-.list2_item{
-  background:url(../images/marker1.png) 0 7px no-repeat;
-  padding-left:20px;
-}
-.list2_link{}
-
-.list3{}
-.list3_item{
-  background:url(../images/marker1.png) 0 7px no-repeat;
-  padding-left:20px;
-}
-.list3_link{}
 
 /*=====================> Titles ========================*/
-h2,h3,h4{
-  font-weight:normal;
-}
+
 .title1{
-  font-family: 'rotonda_boldregular';
+  
   font-size: 20px;
   line-height: 22px;
   font-weight: 700;
@@ -239,7 +224,7 @@ h2,h3,h4{
 .title1.bg_grey{background-color: #605a54;}
 
 .title2{
-  font-family: 'rotonda_boldregular';
+  
   width: 770px;
   font-size: 16px;
   line-height: 20px;
@@ -257,7 +242,7 @@ h2,h3,h4{
     border-color: transparent;
   }
 .title3{
-  font-family: 'rotonda_boldregular';
+  
   font-size: 13px;
   line-height: 14px;
   text-transform: uppercase;
@@ -268,10 +253,10 @@ h2,h3,h4{
   font-size: 12px;
   line-height: 14px;
   color: #000;
-  padding-left: 12px;
+  padding-left: 8px;
 }
 .title4{
-  font-family: 'rotonda_boldregular';
+  
   font-size: 16px;
   line-height: 20px;
   color:#1f99c6;
@@ -393,18 +378,17 @@ header {
     letter-spacing: -1px;
   }
   .text1_title{
-    font-family: 'rotonda_boldregular';
+    
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
     color: #c61d23;
   }
-  .text2{
-    font-family: 'rotonda_boldregular';
+  .text2{    
     font-size: 20px;
     line-height: 23px;
     font-weight: 700;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
     color: #c61d23;
   }
   .link2{
@@ -419,7 +403,7 @@ header {
   }
 .tittle_page{
   top: -8px;
-  right: 20px;
+  right: 10px;
   font-size: 0;
 }
 .box1_before:before{
@@ -704,7 +688,7 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
   line-height: 13px;
   color: #231f20;
   letter-spacing: -1px;
-  padding: 10px 30px 0 40px;
+  padding: 10px 10px 0 40px;
 }
 .profile_box{
   height: 121px;
