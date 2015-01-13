@@ -13,10 +13,7 @@ body {
   line-height:13px;
   color:#231f20;
   min-width:1024px;
-  background:url(../images/body_bg.jpg) 50% 0 no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  -webkit-text-size-adjust: none;
+  background:#c2d353;
 }
 *{
   -webkit-box-sizing: border-box;
