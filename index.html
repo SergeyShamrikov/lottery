@@ -37,7 +37,7 @@
         </li>
       </ul>
       <div class="f_right clearfix p_rel z9">
-        <p class="tel_box color_white f_left">8-800-55-86-26</p>
+        <p class="tel_box color_white f_left">8-800-555-86-26</p>
         <div class="log_in_box f_left">
           <a href="#" class="login_link">Вход</a>
           <a href="#" class="forgot_password">Забыли пароль?</a>
@@ -45,16 +45,31 @@
       </div>
     </header>
     <!--==============================content================================-->
-    <div id="content">
-      <!-- <img src="images/home_bg.png" alt=""> -->
-    <object height="665" width="1024">
-      <param value="1024x768_vkuspobedi.swf" name="movie"></param>
-        <param name="wmode" value="transparent"></param>
-        <embed src="1024x768_vkuspobedi.swf" height="665" width="1024" wmode="transparent"></embed>
-    </object>
-
-
+   <div id="content">
+      <div class="main_menu">
+        <object height="665" width="1024">
+          <param value="1024x768_vkuspobedi.swf" name="movie"></param>
+            <param name="wmode" value="transparent"></param>
+            <embed src="1024x768_vkuspobedi.swf" height="665" width="1024" wmode="transparent"></embed>
+        </object>
+      </div>
     </div>
+    
   </div>
+  <script>
+    $(function(){
+      $('.main_menu_box').addClass('d_none');
+          $('#content').html('<img src="images/home_bg.png" alt=""><ul><li><a href="index.html" class="index_menu_link1"></a></li><li><a href="winners_money.html" class="index_menu_link2"></a></li><li><a href="competition_gallery.html" class="index_menu_link3"></a></li><li><a href="competition.html" class="index_menu_link4"></a></li><li><a href="about.html" class="index_menu_link5"></a></li><li><a href="questions.html" class="index_menu_link6"></a></li><li><a href="registration.html" class="index_menu_link7"></a></li></ul>');
+      if(window.orientation!=undefined){
+        var regM = /ipod|ipad|iphone/gi,
+            ua = navigator.userAgent,
+            result = ua.match(regM);
+        if(!result) {
+          $('.main_menu_box').addClass('d_none');
+          $('body').html('<img src="images/home_bg.png" alt=""><ul><li><a href="index.html" class="index_menu_link1"></a></li><li><a href="winners_money.html" class="index_menu_link2"></a></li><li><a href="competition_gallery.html" class="index_menu_link3"></a></li><li><a href="competition.html" class="index_menu_link4"></a></li><li><a href="about.html" class="index_menu_link5"></a></li><li><a href="questions.html" class="index_menu_link6"></a></li><li><a href="registration.html" class="index_menu_link7"></a></li></ul>');
+        }
+       } 
+    });
+  </script>
 </body>
 </html>

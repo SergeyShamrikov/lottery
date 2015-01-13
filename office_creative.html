@@ -35,7 +35,7 @@
         </li>
       </ul>
       <div class="f_right clearfix p_rel z9">
-        <p class="tel_box color_white f_left">8-800-55-86-26</p>
+        <p class="tel_box color_white f_left">8-800-555-86-26</p>
         <div class="log_in_box f_left">
           <a href="#" class="login_link">Вход</a>
           <a href="#" class="forgot_password">Забыли пароль?</a>
@@ -119,27 +119,93 @@
           </div>
           <div class="gallery_box f_right">
             <h3 class="gallery_title al_center title3">галерея ваших работ</h3>
-            <div class="gallery_list clearfix">
+            <div id="gallery_slider" class="owl-carousel creative_slider">
+              <div class="gallery_list clearfix">
                 <div class="gallery_item">
-                  <a href="#">
-                    <img src="images/gallery_item_img.jpg" alt="">
-                  </a>
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img.jpg" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="gallery_item">
-                  <a href="#">
-                    <img src="images/gallery_item_img2.jpg" alt="">
-                  </a>
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img2.jpg" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="gallery_item">
-                  <a href="#">
-                    <img src="images/gallery_item_img3.jpg" alt="">
-                  </a>
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img3.jpg" alt="">
+                    </a>
+                  </div>
                 </div>
                 <div class="gallery_item">
-                  <a href="#">
-                    <img src="images/gallery_item_img4.jpg" alt="">
-                  </a>
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img4.jpg" alt="">
+                    </a>
+                  </div>
                 </div>
+              </div>
+              <div class="gallery_list clearfix">
+                <div class="gallery_item">
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img4.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="gallery_item">
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img3.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="gallery_item">
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img2.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="gallery_item">
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery_list clearfix">
+                <div class="gallery_item">
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="gallery_item">
+                  <div class="gallery_item_box">
+                    <a href="#">
+                      <img src="images/gallery_item_img2.jpg" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="gallery_item">
+                  <div class="gallery_item_box">
+                    
+                  </div>
+                </div>
+                <div class="gallery_item">
+                  <div class="gallery_item_box">
+                    
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -148,7 +214,18 @@
     </div>
     <!--==============================footer=================================-->
     
-    <script type="text/javascript" src="js/script.js"></script>    
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+      $(document).ready(function(){
+        var owl = $("#gallery_slider");
+     
+        owl.owlCarousel({
+            items : 1,
+            navigation : true
+        });
+      });
+    </script>
   </div>
 </body>
 </html>

@@ -294,7 +294,7 @@ header {
     display: block;
     width: 40px;
     height: 40px;
-    background: url(../images/social_icon.png) 0 0 no-repeat;
+    background: url(../images/social_icon1.png) 0 0 no-repeat;
     -webkit-transition: all 0.7s;
     -o-transition: all 0.7s;
     transition: all 0.7s;
@@ -475,8 +475,7 @@ header {
     cursor: pointer;
   }
   input:checked + .radio_label{
-    -webkit-box-shadow: 1px 1px 3px rgba(0.0.0.0.2);
-    box-shadow: 1px 1px 3px rgba(0.0.0.0.2);
+    background: url(../images/sex_bg_focus.jpg) 0 0 no-repeat;
   }
   .radio_sex,.radio_citizenship{
     display: inline-block;
@@ -486,6 +485,9 @@ header {
   .citizenship_other{
     width: 67px;
     background: url(../images/citizenship_bg.jpg) 0 0 no-repeat;
+  }
+  input:checked + .citizenship_other{
+    background: url(../images/citizenship_bg_focus.jpg) 0 0 no-repeat;
   }
   .text_inp{
     font-size: 10px;
@@ -848,7 +850,12 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
 .gallery_item{
   float: left;
   width: 50%;
-  padding: 7px 0 8px 0;
+  padding: 8px 0 9px 8px;
+}
+.gallery_item_box{
+  background-color: #fff;
+  width: 126px;
+  height: 201px;
 }
 .gallery_item a{display: block;text-align: center;overflow: hidden;}
 
@@ -945,6 +952,7 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
     width: 573px;
     margin: 0 auto;
   }
+  #gallery_slider.creative_slider{width: auto;}
   #gallery_slider .owl-pagination{display: none;}
   #gallery_slider .owl-buttons div{
     width: 46px;
@@ -1013,6 +1021,22 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
   color: #231f20;
   letter-spacing: -1px;
 }
+
+/*main menu*/
+[class*="index_menu_link"]{
+  display: block;
+  position: absolute;
+  width: 193px;
+  height: 39px;
+  left: 578px;
+}
+.index_menu_link1{top: 232px;}
+.index_menu_link2{top: 275px;}
+.index_menu_link3{top: 318px;}
+.index_menu_link4{top: 361px;}
+.index_menu_link5{top: 404px;}
+.index_menu_link6{top: 447px;}
+.index_menu_link7{top: 490px;}
 /*================================>> Footer <<========================================*/
 footer {
   padding: 10px 245px 10px 75px;
