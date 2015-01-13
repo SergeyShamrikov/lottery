@@ -2,6 +2,7 @@
 @import "../css/owl.theme.css";
 @import "../css/owl.transitions.css";
 @import "../css/owl.carousel.css";
+@import "../css/jquery.arcticmodal-0.3.css";
 @import "../fonts/stylesheet.css";
 article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video{display:block}mark,rp,rt,ruby,summary,time{display:inline}
 /* Global properties ======================================================== */
@@ -850,11 +851,49 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
   padding: 8px 0 9px 8px;
 }
 .gallery_item_box{
+  position: relative;
   background-color: #fff;
   width: 126px;
   height: 201px;
 }
-.gallery_item a{display: block;text-align: center;overflow: hidden;}
+.reward{
+  top: 6px;
+  right: 8px;
+}
+
+.gallery_item_btn_box{
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.number_votes{
+  font-size: 10px;
+  line-height: 12px;
+  color: #fff;
+  padding: 3px 0 3px 10px;
+  background: url(../images/number_votes_icon.jpg) 0 0 no-repeat;
+}
+.delete_btn{
+  display: block;
+  float: left;
+  width: 60px;
+  height: 19px;
+  background: url(../images/delete_icon.jpg) 0 0 no-repeat;
+}
+.approval{
+  display: block;
+  width: 65px;
+  height: 19px;
+  float: left;
+  background: url(../images/approval.jpg) 0 0 no-repeat;
+}
+.approval_not{background: url(../images/approval_not.jpg) 0 0 no-repeat;}
+.gallery_item .gallery_item_box>div>a{
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  height: 165px;
+}
 
 .competition_left{
   width: 458px;
@@ -1019,6 +1058,8 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
   letter-spacing: -1px;
 }
 
+
+
 /*main menu*/
 [class*="index_menu_link"]{
   display: block;
@@ -1034,6 +1075,31 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
 .index_menu_link5{top: 404px;}
 .index_menu_link6{top: 447px;}
 .index_menu_link7{top: 490px;}
+
+
+/*modal*/
+.modal_box{
+  background-color: #fff;
+  width: 410px;
+  height: 243px;
+  text-align: center;
+  padding-top: 100px;
+}
+.modal_box p{
+  font-size: 12px;
+  line-height: 12px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.modal_close{
+  width: 75px;
+  height: 25px;
+  position: absolute;
+  cursor: pointer;
+  top: -10px;
+  right: 6px;
+  background: url(../images/modal_close.png) 0 0 no-repeat;
+}
 /*================================>> Footer <<========================================*/
 footer {
   padding: 10px 245px 10px 75px;
