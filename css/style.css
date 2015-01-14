@@ -350,7 +350,13 @@ header {
           color: #fff;
         }
 /*=====================> Content ========================*/
-#content {padding:0px 0px 0px 0px;}
+#content {
+  padding:0px 0px 0px 0px;
+  position: relative;
+}
+img[src="images/home_bg.png"]{
+  width: 1024px;
+}
 
 .box1{width: 770px;}
   .box1_row{
@@ -1066,15 +1072,15 @@ input[type="checkbox"]:checked + .checkbox_label{background-position: 0 bottom;}
   position: absolute;
   width: 193px;
   height: 39px;
-  left: 578px;
+  left: 416px;
 }
-.index_menu_link1{top: 232px;}
-.index_menu_link2{top: 275px;}
-.index_menu_link3{top: 318px;}
-.index_menu_link4{top: 361px;}
-.index_menu_link5{top: 404px;}
-.index_menu_link6{top: 447px;}
-.index_menu_link7{top: 490px;}
+.index_menu_link1{top: 182px;}
+.index_menu_link2{top: 225px;}
+.index_menu_link3{top: 268px;}
+.index_menu_link4{top: 311px;}
+.index_menu_link5{top: 354px;}
+.index_menu_link6{top: 397px;}
+.index_menu_link7{top: 440px;}
 
 
 /*modal*/

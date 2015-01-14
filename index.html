@@ -56,15 +56,14 @@
   </div>
   <script>
     $(function(){
-      if(window.orientation!=undefined){
-        var regM = /ipod|ipad|iphone/gi,
-            ua = navigator.userAgent,
-            result = ua.match(regM);
-        if(!result) {
+      // if(window.orientation!=undefined){
+        // var regM = /ipod|ipad|iphone/gi,
+        //     ua = navigator.userAgent,
+        //     result = ua.match(regM);
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
           $('.main_menu_box').addClass('d_none');
           $('#content').html('<img src="images/home_bg.png" alt=""><ul><li><a href="index.html" class="index_menu_link1"></a></li><li><a href="winners_money.html" class="index_menu_link2"></a></li><li><a href="competition_gallery.html" class="index_menu_link3"></a></li><li><a href="competition.html" class="index_menu_link4"></a></li><li><a href="about.html" class="index_menu_link5"></a></li><li><a href="questions.html" class="index_menu_link6"></a></li><li><a href="registration.html" class="index_menu_link7"></a></li></ul>');
         }
-       } 
     });
   </script>
 </body>
